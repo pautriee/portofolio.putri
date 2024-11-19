@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.body {
+    color: #ededed;
+    background-color: rgb(144, 144, 92);
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.Logo {
+    position: relative;
+    font-size: 25px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 6px;
+    transition: 0.3s;
+}
+
+.navbar{
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    color: rgb(44, 88, 90);
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+    font-family: Poppins;
+    background-color: rgb(228, 226, 218);
+}
+
+.home-content{
+    max-width: 600px;
+}
+
+.home-content h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.home-content h3:nth-of-type(2){
+    margin-bottom: 20px;
+}
+
+.home-content h3 span{
+    color: rgb(44, 88, 90);
+}
+
+.home-content h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin: -3px 0;
+}
+
+.home-content p{
+    font-size: 20px;
+}
+
+.home img {
+    width: 520px;
+    height: 400px;
+    display: flex;
+    border-radius: 30%;
+    flex-direction: flex;
+    border: 8px solid rgb(44, 88, 90);
+    border-radius: 50%;
+}
+
+.home-sci a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid rgb(44, 88, 90);
+    border-radius: 50%;
+    font-size: 20px;
+    color: rgb(44, 88, 90);
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+}
+
+.home-sci a:hover{
+    background: rgb(44, 88, 90);
+    color: rgb(255, 241, 241);
+    box-shadow: 0 0 20px rgb(44, 88, 90);
+}
+
+.btn-box{
+    display: inline-block;
+    padding: 12px 25px;
+    background: rgb(44, 88, 90);
+    border-radius: 35px;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn-box:hover{
+    background: rgb(44, 88, 90);
+    color: rgb(255, 251, 251);
+    box-shadow: 0 0 20px rgb(44, 88, 90);
+}
+
